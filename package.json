@@ -11,10 +11,12 @@
   "description": "",
   "dependencies": {
     "amqplib": "^0.10.4",
+    "aws-sdk": "^2.1691.0",
     "dotenv": "^16.4.5",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1",
     "mysql2": "^3.11.3",
-    "node-cron": "^3.0.3"
+    "node-cron": "^3.0.3",
+    "uuid": "^10.0.0"
   }
 }
