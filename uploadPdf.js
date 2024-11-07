@@ -8,14 +8,14 @@ const path = require('path');
 const connectionString = process.env.CONNECTION_STRING;
 
 // Name of the container in Blob Storage
-const containerName = "testblob";
+const containerName = process.env.CONTAINER_NAME;
 
 // Path to the PDF file to upload
 // const filePath = path.join(__dirname, 'your-file.pdf');
 const filePath = path.join(__dirname, 'sql.pdf');
 
 // Name of the blob (file) in Azure Blob Storage
-const blobName = 'sql-01.pdf';
+const blobName = 'sql-02.pdf';
 
 
 async function uploadFileToBlob() {
